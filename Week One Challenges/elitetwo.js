@@ -43,9 +43,9 @@ function addToCart(itemName) {
 }
 
 //Once a cart item is checked it is found and removed 
-function toggleItem(item) {
+function toggleItem(itemName) {
     //Finds item in cart
-    let itemIdex = cart.findIndex(item => item.name === itemName);
+    let itemIndex = cart.findIndex(item => item.name === itemName);
 
     //Removes the item
     cart.splice(itemIndex, 1);
