@@ -13,11 +13,13 @@ body {
     font-weight: bold;
     margin: 0;
     text-transform: uppercase;
+    color: #5c00e6;
+    text-align: center;
   }
   
   h1 {
-    font-size: 3em;
-    margin-bottom: 1em;
+    font-size: 2em;
+    margin-bottom: 0.5em;
   }
   
   h2 {
@@ -33,15 +35,19 @@ body {
   
   ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
   
   li {
-    font-size: 1.5em;
-    margin-right: 1em;
-    text-transform: uppercase;
+    background-color: #006be6;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 10px;;
   }
   
   img {
@@ -51,4 +57,5 @@ body {
     margin-top: 2em;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
   }
+  
   

@@ -1,0 +1,52 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #E8E8E8;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #4B0082;
+  }
+  
+  input[type="text"] {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px #4B0082;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #F0E68C;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #4B0082;
+  }
+  
+  button {
+    background-color: #4B0082;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
