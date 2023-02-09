@@ -41,3 +41,29 @@ for (let key in myObject) {
 for (let value of blueF) {
     console.log(value);
 }
+
+//Closure
+function operationPicker (a,b) {
+    return {
+        add() {
+            return a + b;
+        },
+        subtract() {
+            return a - b;
+        },
+        multiply() {
+            return a * b;
+        },
+        divide() {
+            return a / b;
+        },
+    };
+}
+
+let counter = function (startingValue) {
+    let count = startingValue;
+    return function () {
+        count ++
+        return count;
+    };
+};
