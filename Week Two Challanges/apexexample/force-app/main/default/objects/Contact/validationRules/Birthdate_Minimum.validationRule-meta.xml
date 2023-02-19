@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Birthdate_Minimum</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(NOT(ISBLANK(Birthdate)),
+IF(YEAR(TODAY()) - YEAR(Birthdate) &gt; 10,
+true,
+false),
+true)</errorConditionFormula>
+    <errorMessage>Contact must be at least 10 years old.</errorMessage>
+</ValidationRule>

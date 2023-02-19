@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Phone_Number</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+NOT(ISBLANK(Phone)),
+NOT(ISBLANK(MobilePhone)),
+NOT(ISBLANK(HomePhone))
+)</errorConditionFormula>
+    <errorMessage>At least one of the phone fields must be filled out.</errorMessage>
+</ValidationRule>

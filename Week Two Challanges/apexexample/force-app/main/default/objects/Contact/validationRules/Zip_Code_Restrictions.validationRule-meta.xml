@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zip_Code_Restrictions</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( NOT(ISBLANK(MailingPostalCode)), NOT(CONTAINS(&quot;77429, 77431, 77433&quot;, MailingPostalCode)) )</errorConditionFormula>
+    <errorMessage>Please enter a valid Zip Code</errorMessage>
+</ValidationRule>
