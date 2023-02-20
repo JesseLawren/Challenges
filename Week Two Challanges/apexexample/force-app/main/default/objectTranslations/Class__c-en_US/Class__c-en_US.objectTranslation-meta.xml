@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Class</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Classes</value>
+    </caseValues>
+    <layouts>
+        <layout>History</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Math</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Science</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>Enroll_Student</name>
+    </quickActions>
+    <recordTypes>
+        <label></label>
+        <name>History</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Math</name>
+    </recordTypes>
+    <recordTypes>
+        <label></label>
+        <name>Science</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

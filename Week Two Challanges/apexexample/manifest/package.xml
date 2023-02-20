@@ -21,6 +21,33 @@
 	</types>
 	<types>
 		<members>*</members>
+		<name>CustomObjectTranslation</name>
+	</types>
+	<types>
+		<members>Class__c</members>
+		<members>Knowledge__kav</members>
+		<members>School</members>
+		<members>Zip_Code__c</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>Case</members>
+		<name>EscalationRules</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>GlobalValueSet</name>
+	</types>
+	<types>
+		<members>Case-Case Layout</members>
+		<members>Class__c-Class Layout</members>
+		<members>Class__c-History</members>
+		<members>Class__c-Math</members>
+		<members>Class__c-Science</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>*</members>
 		<name>PathAssistant</name>
 	</types>
 	<types>
