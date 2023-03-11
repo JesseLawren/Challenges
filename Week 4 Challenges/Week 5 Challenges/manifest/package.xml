@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>Calculator</members>
+        <members>Car</members>
+		<members>DataLord</members>
+		<members>Vehicle</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>Challenge4</members>
+        <members>Challenge3</members>
+		<members>Challenge2</members>
+		<members>Challenge1</members>
+		<name>ApexTrigger</name>
+	</types>
+	<version>55.0</version>
+</Package>
