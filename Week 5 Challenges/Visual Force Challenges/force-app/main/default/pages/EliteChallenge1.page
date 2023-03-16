@@ -1,0 +1,19 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="false">
+    <apex:stylesheet value="{!URLFOR($Resource.EliteChallenge1CSS)}" />
+
+    <div class="page-container">
+        <div class="header">
+            <h1>Backpacking Wikipedia Page</h1>
+        </div>
+        <div class="content">
+            <div class="page-preview">
+                <a href="https://en.wikipedia.org/wiki/Backpacking" target="_blank">Visit the Backpacking Wikipedia Page</a>
+                <p>Backpacking is the outdoor recreation of carrying gear on one's back, while hiking for more than a day. It is often but not always an extended journey, and may or may not involve camping outdoors...</p>
+            </div>
+            <div class="description">
+                <h2>What I like about this page / What I learned:</h2>
+                <p>The Wikipedia page on Backpacking provides a comprehensive overview of the activity, its history, and various aspects such as equipment, safety, and destinations. I learned about the different types of backpacking, like ultralight backpacking and thru-hiking, and how backpacking can be a great way to explore nature and enjoy the outdoors.</p>
+            </div>
+        </div>
+    </div>
+</apex:page>

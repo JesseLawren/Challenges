@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #87ceeb;
+    background-image: linear-gradient(135deg, #87ceeb 0%, #2e8b57 100%);
+    color: #fff;
+}
+
+.page-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(46, 139, 87, 0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.page-preview {
+    font-size: 1.1em;
+}
+
+.page-preview a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.page-preview a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    margin-top: 30px;
+}
